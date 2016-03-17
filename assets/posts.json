@@ -193,4 +193,10 @@
     "content": "To update a specific submodule in your repository, you should append the path to your submodule: \n\n `git submodule update --remote --merge <path>` \n\n Suggested by Wouter Peschier.",
     "help": "update submodule",
     "cmds": "git submodule remote merge"
+},
+{
+    "title": "Stage related changes",
+    "content": "Patch mode allows you to stage specific changes in a file, instead of the entire file. This allows you to keep a cleaner history as you can commit related changes and leave non-related ones out",
+    "help": "stage related changes",
+    "cmds": "git add -p"
 }]
